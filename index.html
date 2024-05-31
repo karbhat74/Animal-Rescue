@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Smash</title>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+        <link rel="stylesheet" href="./css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <class="site-main-wrapper">
+            <button class="hamberger">
+                <img src="./images/hamberger.svg" alt="">
+            </button>
+            
+            <div class="mobile-nav">
+                <button class="times"><img src="./images/times.svg" alt=""></button>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#work">Work</a></li>
+                </ul>
+            </div>
+            <header>
+                <div class="container">
+                    <nav id="main-nav" class="flex items-center justify-between">
+                        <div class="left flex items-center">
+                            <div class="branding">
+                                <img src="./images/icons8-dead-by-daylight.svg" alt="logo">
+                            </div>
+                            <div>
+                                <a href="#">Home</a>
+                                <a href="#about">About</a>
+                                <a href="#services">Services</a>
+                                <a href="#work">Work</a>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="hero flex items-center justify-between" style="flex-direction: row-reverse;">
+                        <div class="left flex-1 flex justify-center"></div>
+                            <div class="right flex-1">
+                                <h6>smash.com</h6>
+                                <h1><span>HappyTail</span>Haven</h1>
+                                <p style="color: black;">Give a Voice to the Voiceless: Fund Animal Rehabilitation. Every day, countless animals suffer in silence from neglect and abuse.
+                                    Your support can transform their pain into hope, providing essential care and a chance for a better life.
+                                    Join us in our mission to heal their wounds, restore their joy, and give them the love they deserve."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section id="about" class="about">
+                <div class="container flex items-center about-inner-wrap">
+                    <div class="flex-1">
+                        <img class="about-me-img" src="./images/about.webp" alt="">
+                    </div>
+                    <div class="flex-1 right">
+                        <h1>About <span>Animal Adoption</span></h1>
+                        <h3>Animal adoption involves taking responsibility for a pet from shelters, rescue groups, or previous owners, offering these animals a second chance at a loving home.
+                            Adopting saves lives by reducing euthanasia rates in overcrowded shelters and helps combat pet overpopulation. 
+                            Many adopted pets come spayed/neutered, vaccinated, and behavior-assessed, making them ready for a new home.
+
+                            The adoption process typically includes researching suitable pets, visiting shelters, meeting animals, filling out applications, and sometimes undergoing a home visit.
+                            Adoption fees, which support shelter operations, usually cover initial medical care.
+                        </h3>
+                        <p></p>
+                        <div class="social">
+                            <a href="#"><img src="./images/arrow-up-circle.svg" alt="go up"></a>
+                            <a href="https://www.instagram.com/karbhat74?igsh=MWNvZTFhYmYxN2d5Zw=="><img src="./images/instagram.svg" alt="instagram profile"></a>
+                            <a href="https://www.facebook.com/karthik.as.733450?mibextid=ZbWKwL"> <img src="./images/facebook.svg" alt="facebook profile"></a>
+                            <a href="https://www.linkedin.com/in/karthik-a-s-1a2292263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <img src="./images/linkedin.svg" alt="linkedin profile"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="services" class="services">
+                <div class="container">
+                    <h1 class="section-heading"><span>Our </span>Services</h1>
+                    <p>We provide a platform to Adopt Stray Animals.</p>
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <img src="./images/knowledge.svg" alt="">
+                            <h2>Knowledge</h2>
+                            <p>The adoption process typically includes researching suitable pets, visiting shelters, meeting animals, filling out applications, and sometimes undergoing a home visit.
+                                Adoption fees, which support shelter operations, usually cover initial medical care.
+                            </p>
+                        </div>
+                        <div class="card">
+                            <img src="./images/veterinary-care-svgrepo-com.svg" alt="">
+                            <h2>PetCare</h2>
+                            <p>Animal Rescue Alliance: Learn, Adopt, and Support Rehabilitation Efforts</p>
+                        </div>
+                        <div class="card">
+                            <img src="./images/pet-shelter.svg" alt="">
+                            <h2>Adoption</h2>
+                            <p>Adopt, don't shop! Open your heart and home to a loving pet in need. Shelters overflow with amazing dogs, cats, and more.
+                                You'll rescue an animal and gain a loyal friend, all while reducing pet homelessness.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/i1.avif" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/cat.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/Its-Cow-Appreciation-Day.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <section class="reviews">
+                <div class="container">
+                    <h1 class="section-heading"><span>Our</span> Crewmates</h1>
+                    <p>Creating endless memories with these three.</p>
+                    <div class="slider">
+                        <div class="slide">
+                            <img src="./images/dakshesh.jpg" alt="">
+                            <p>"Dedicated to rescuing and rehabilitating abandoned and injured animals, providing them with medical care, shelter, and love. We strive to find forever homes for every animal, advocating for animal welfare and educating the community on responsible pet ownership. Join us in saving lives and making a difference!"</p>
+                            <span>- Dakshesh S, CHITRADURGA</span>
+                        </div>
+                        <div class="slide">
+                            <img src="./images/gowtham.jpg" alt="">
+                            <p>"
+                                A veterinary is a medical professional specializing in animal health, providing care for pets, livestock, and wildlife.
+                                They diagnose and treat illnesses, perform surgeries, and offer preventive care like vaccinations.
+                                Veterinarians play a crucial role in ensuring animal welfare and public health through their expertise and compassionate care."
+                            </p>
+                            <span>- Gowtham D V, CHIKMAGALURU</span>
+                        </div>
+                        <div class="slide">
+                            <img src="./images/adarsh.jpg" alt="">
+                            <p>He possesses talent and expertise in web development, and I am intrigued by his ability to create exceptionally beautiful, responsive websites. Furthermore, he excels as a skilled sports person, leaving everyone in awe with his Kho Kho prowess.</p>
+                            <span>- Adarsh S Naik, HONNAVARA</span>
+                        </div>
+                    </div>
+                    <div class="slider-dots"></div>
+                </div>
+            </section>
+            <section id="work" class="work">
+                <div class="container">
+                    <h1 class="section-heading"><span>Our</span> Works</h1>
+                    <p>We provide high standar clean website for your business solutions</p>
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <div class="overlay">
+                                <span>Category</span>
+                                <a href="#">Adopting</a>
+                            </div>
+                            <img src="./images/adopt.webp" alt="">
+                        </div>
+                        <div class="card">
+                            <div class="overlay">
+                                <span>Category</span>
+                                <a href="#">Knowledge</a>
+                            </div>
+                            <img src="./images/knowl.webp" alt="">
+                        </div>
+                        <div class="card">
+                            <div class="overlay">
+                                <span>Category</span>
+                                <a href="#">PetCare</a>
+                            </div>
+                            <img src="./images/Petcare.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact">
+                <form action="">
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Your Name *">
+                        <input type="email" placeholder="Your Email *">
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" placeholder="Your Subject...">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+        </section>
+        <footer class="py-5">
+            <section class="about">
+                <div class="row">
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 offset-md-1 mb-3">
+                        <form>
+                            <h5>Subscribe to our newsletter</h5>
+                            <p>Monthly digest of what's new and exciting from us.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                                <button class="btn btn-primary" type="button">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <p>© 2024 smash.com , Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                </ul>
+            </section>
+        </footer>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="./js/app.js"></script>
+    </body>
+</html>
